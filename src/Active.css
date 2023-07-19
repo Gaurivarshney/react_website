@@ -1,0 +1,36 @@
+.container-fluid img{
+    height: 450px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.container-fluid .content{
+   margin-top: 150px;
+}
+.container-fluid{
+    min-width: 100%;
+}
+.animated{
+    animation: up-down 2s ease-in-out  infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.card{
+    height: 450px;
+    width: 400px;
+}
